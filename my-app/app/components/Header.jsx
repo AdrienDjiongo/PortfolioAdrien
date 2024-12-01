@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Menu } from "lucide-react";
 
 import "@fontsource/fira-code/400.css"; // Regular weight
 import "@fontsource/fira-code/700.css"; // Bold weight (optional)
@@ -6,9 +7,10 @@ import "@fontsource/fira-code/700.css"; // Bold weight (optional)
 const Header = () => {
   return (
     <div>
-      <div className=" hidden sm:flex text-white justify-between my-7 ">
-        <p>Adrien</p>
-        <div className="flex gap-8 text-[#ABB2BF] ">
+      <div className=" flex text-white justify-between my-7 ">
+        <p className="text-xl">Adrien</p>
+        <Menu className=" sm:hidden" size={30} />
+        <div className="gap-8 hidden sm:flex text-[#ABB2BF] ">
           <p>
             {" "}
             <span className="text-[#C778DD] ">#</span>Home
