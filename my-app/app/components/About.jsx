@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div>
-      <div className="flex text-white text-xl my-10 justify-between ">
+      <div className="flex text-white text-2xl my-10 justify-between ">
         <div className="flex  gap-2">
           <p className="my-auto">
             {" "}
@@ -10,13 +10,13 @@ const About = () => {
           </p>
           <img
             src="/Stroke.png"
-            className="h-[1px] mt-4 w-[27em] pr-10 "
+            className="h-[1px] mt-4 hidden sm:block w-[27em] pr-10 "
             alt=""
           />
         </div>
       </div>
 
-      <div className="flex flex-col gap-5 mr-8 text-xl text-[#ABB2BF] ">
+      <div className="flex flex-col gap-5 mx-4 sm:mr-8 text-sm sm:text-xl text-[#ABB2BF] ">
         <p>Hello, i'm Adrien</p>
         <p>
           {" "}

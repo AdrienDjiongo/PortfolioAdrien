@@ -1,16 +1,16 @@
 const Projects = () => {
   return (
     <div>
-      <div className="flex text-white text-xl my-10 justify-between ">
+      <div className="flex text-white text-2xl my-10 justify-between ">
         <div className="flex  gap-2">
           <p className="my-auto">
             {" "}
-            <span className="text-[#C778DD]   my-auto ">#</span>
+            <span className="text-[#C778DD] my-auto ">#</span>
             Projects{" "}
           </p>
           <img
             src="/Stroke.png"
-            className="h-[1px] mt-4 w-[30em] pr-10 "
+            className="h-[1px] hidden sm:block mt-4 w-[30em] pr-10 "
             alt=""
           />
         </div>
@@ -19,7 +19,7 @@ const Projects = () => {
           <p> View all ~~{">"}</p>
         </div>
       </div>
-      <div className="grid grid-cols-3 gap-2">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 gap-y-6 mx-4 ">
         <div className="flex flex-col border-[1px] border-[#ABB2BF] col-span-1  ">
           <img src="/project1.jpg" className="w-full " alt="" />
           <p className="p-3 text-[#ABB2BF] mb-3 border-b-[1px] border-[#ABB2BF] ">

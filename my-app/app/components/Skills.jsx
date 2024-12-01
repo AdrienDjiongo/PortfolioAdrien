@@ -1,22 +1,22 @@
 const Skills = () => {
   return (
     <div>
-      <div className="flex text-white text-xl my-10 justify-between ">
+      <div className="flex text-white text-2xl my-10 justify-between ">
         <div className="flex  gap-2">
           <p className="my-auto">
             {" "}
-            <span className="text-[#C778DD]   my-auto ">#</span>
+            <span className="text-[#C778DD]  my-auto ">#</span>
             Education and skills{" "}
           </p>
           <img
             src="/Stroke.png"
-            className="h-[1px] mt-4 w-[27em] pr-10 "
+            className="h-[1px] hidden sm:block mt-4 w-[27em] pr-10 "
             alt=""
           />
         </div>
       </div>
       <div className="grid mx-auto  grid-cols-7 gap-4 my-10 p-6 text-xl bg-[url('/bg-skills-edu.png')]   ">
-        <div className="col-span-5 border-[1px] bg-[#5f6775] w-fit px-4 rounded-lg border-[#ABB2BF]  ">
+        <div className=" col-span-7 sm:col-span-3 border-[1px] bg-[#5f6775] sm:w-fit px-4 rounded-lg border-[#ABB2BF]  ">
           <p className="text-white p-2 border-b-[1px] border-[#ABB2BF]  ">
             Diplomas
           </p>
@@ -28,7 +28,7 @@ const Skills = () => {
             <p className="text-[#ABB2BF]">2024 - HND in software engineering</p>
           </div>
         </div>
-        <div className=" bg-[#5f6775] w-fit px-4 rounded-lg col-span-3 border-[1px] border-[#ABB2BF]  ">
+        <div className=" bg-[#5f6775] sm:w-fit px-4 rounded-lg col-span-7 sm:col-span-3 border-[1px] border-[#ABB2BF]  ">
           <p className="text-white p-2 border-b-[1px] border-[#ABB2BF]  ">
             Programming languages
           </p>
@@ -38,7 +38,7 @@ const Skills = () => {
             <p className="text-[#ABB2BF]">SQL, HTML, CSS</p>
           </div>
         </div>
-        <div className=" bg-[#5f6775] w-fit px-4 rounded-lg col-span-4 border-[1px] border-[#ABB2BF]  ">
+        <div className=" bg-[#5f6775] sm:w-fit px-4 rounded-lg col-span-7 sm:col-span-3 border-[1px] border-[#ABB2BF]  ">
           <p className="text-white p-2 border-b-[1px] border-[#ABB2BF]  ">
             Frameworks and libraries
           </p>
@@ -48,7 +48,7 @@ const Skills = () => {
             <p className="text-[#ABB2BF]">Next.js, Tailwind.css </p>
           </div>
         </div>
-        <div className=" bg-[#5f6775] w-fit px-4 rounded-lg col-span-4 border-[1px] border-[#ABB2BF]  ">
+        <div className=" bg-[#5f6775] sm:w-fit px-4 rounded-lg col-span-7 sm:col-span-4 border-[1px] border-[#ABB2BF]  ">
           <p className="text-white p-2 border-b-[1px] border-[#ABB2BF]  ">
             Database
           </p>

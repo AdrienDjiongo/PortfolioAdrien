@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <div className=" mx-10 font-fira  lg:mx-auto max-w-[1100px] ">
+    <div className=" sm:mx-10 mx-3 font-fira  lg:mx-auto max-w-[1100px] ">
       <Header />
       <Projects />
       <Skills />
