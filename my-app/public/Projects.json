@@ -1,0 +1,44 @@
+{
+  "project": [
+    {
+      "id": 1,
+      "name": "Expense tracker",
+      "technos": "Next.js Express Mongodb",
+      "description": "frrr",
+      "img": "expT.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 2,
+      "name": "E-Fastfood order app",
+      "technos": "React.JS tailwind",
+      "description": "frrr",
+      "img": "project2.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Instant messaging web app",
+      "technos": "PHP JS SQL ",
+      "description": "frrr",
+      "img": "project3.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Task management app",
+      "technos": " Next.js Tailwind Express.js MongoDB ",
+      "description": "frrr",
+      "img": "project1.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Portfolio",
+      "technos": " Next.js tailwind",
+      "description": "frrr",
+      "img": "project4.jpg",
+      "url": "expT.jpg"
+    }
+  ]
+}

@@ -20,7 +20,7 @@ const Contact = () => {
 
       <p className="text-[#ABB2BF] mx-4 text-xl">
         I'm interested in freelance opportunities. However, if you have other
-        request or question, don't hesitate to contact me
+        requests or questions, don't hesitate to contact me
       </p>
 
       <div className="border-[1px] text-[#ABB2BF] p-4 w-fit flex flex-col gap-3 my-10 mx-auto  border-[#ABB2BF] ">

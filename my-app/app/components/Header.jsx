@@ -1,4 +1,5 @@
 import { Menu } from "lucide-react";
+import Link from "next/link";
 
 import "@fontsource/fira-code/400.css"; // Regular weight
 import "@fontsource/fira-code/700.css"; // Bold weight (optional)
@@ -9,13 +10,13 @@ const Header = () => {
       <p className="text-xl">Adrien</p>
       <Menu className=" sm:hidden" size={30} />
       <div className="gap-8 hidden sm:flex text-[#ABB2BF] ">
-        <p>
+        <Link href="/">
           {" "}
           <span className="text-[#C778DD] ">#</span>Home
-        </p>
-        <p>
+        </Link>
+        <Link href="/projects">
           <span className="text-[#C778DD] ">#</span>Works
-        </p>
+        </Link>
         <p>
           <span className="text-[#C778DD] ">#</span>About-me
         </p>
