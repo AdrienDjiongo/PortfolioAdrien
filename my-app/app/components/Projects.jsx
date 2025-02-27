@@ -46,7 +46,7 @@ const Projects = () => {
       </div>
 
       {!projects ? (
-        <div className="text-6xltext-white "> LOADING PROJECTS.... </div>
+        <div className="text-6xl text-white "> LOADING PROJECTS.... </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 gap-y-6 mx-4 ">
           {" "}
@@ -62,12 +62,15 @@ const Projects = () => {
               </p>
               <h1 className="px-5 text-2xl text-white "> {p.name}</h1>
               <p className="py-1 px-5 text-sm text-[#ABB2BF] ">
-                {" "}
-                minecraft server hosting
+                {p.description}
               </p>
-              <p className="text-white px-3 py-1 mx-6 my-4 border-[1px] border-[#C778DD] w-fit ">
+              <Link
+                href={`${p.url}`}
+                target="_blank"
+                className="text-white px-3 py-1 mx-6 my-4 border-[1px] border-[#C778DD] w-fit "
+              >
                 View {"<~>"}{" "}
-              </p>
+              </Link>
             </div>
           ))}
         </div>

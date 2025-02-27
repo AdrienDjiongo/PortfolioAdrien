@@ -1,30 +1,72 @@
-import { Menu } from "lucide-react";
-import Link from "next/link";
-
+"use client";
 import "@fontsource/fira-code/400.css"; // Regular weight
 import "@fontsource/fira-code/700.css"; // Bold weight (optional)
 
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
+import Link from "next/link";
+
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <div className=" flex text-white justify-between my-7 ">
+    <header className="flex justify-between items-center p-5   text-white">
       <p className="text-xl">Adrien</p>
-      <Menu className=" sm:hidden" size={30} />
-      <div className="gap-8 hidden sm:flex text-[#ABB2BF] ">
-        <Link href="/">
-          {" "}
-          <span className="text-[#C778DD] ">#</span>Home
-        </Link>
-        <Link href="/projects">
-          <span className="text-[#C778DD] ">#</span>Works
-        </Link>
-        <p>
-          <span className="text-[#C778DD] ">#</span>About-me
-        </p>
-        <p>
-          <span className="text-[#C778DD] ">#</span>contacts
-        </p>
+      <div className="sm:hidden ">
+        {menuOpen ? (
+          <X size={30} onClick={toggleMenu} />
+        ) : (
+          <Menu size={30} onClick={toggleMenu} />
+        )}
       </div>
-    </div>
+      <nav
+        className={`${
+          menuOpen ? "block" : "hidden"
+        } absolute top-16 right-0 w-fit  sm:bg-transparent bg-gray-800 sm:static sm:block sm:w-auto`}
+      >
+        <ul className="flex flex-col sm:flex-row sm:gap-8 text-[#ABB2BF] p-5 sm:p-0">
+          <li>
+            <Link href="/">
+              <p className="block py-2 sm:py-0">
+                <span className="text-[#C778DD]">#</span>Home
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link href="/projects">
+              <p className="block py-2 sm:py-0">
+                <span className="text-[#C778DD]">#</span>Projects
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link href="/experience">
+              <p className="block py-2 sm:py-0">
+                <span className="text-[#C778DD]">#</span>Experience
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about">
+              <p className="block py-2 sm:py-0">
+                <span className="text-[#C778DD]">#</span>About-me
+              </p>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contacts">
+              <p className="block py-2 sm:py-0">
+                <span className="text-[#C778DD]">#</span>Contacts
+              </p>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 };
 

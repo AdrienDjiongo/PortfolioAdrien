@@ -2,42 +2,97 @@
   "project": [
     {
       "id": 1,
-      "name": "Expense tracker",
-      "technos": "Next.js Express Mongodb",
-      "description": "frrr",
-      "img": "expT.jpg",
-      "url": "expT.jpg"
+      "name": "States sales dashboard",
+      "technos": "microsoft Excel",
+      "type": "big data",
+      "description": "Data analysis project. Visualization project to highlight Key Performance indicator in a state sales business.",
+      "img": "projectdata2.png",
+      "url": "projectdata2.png"
     },
     {
       "id": 2,
-      "name": "E-Fastfood order app",
-      "technos": "React.JS tailwind",
-      "description": "frrr",
-      "img": "project2.jpg",
-      "url": "expT.jpg"
+      "name": "Expense tracker",
+      "technos": "Next.js Express Mongodb",
+      "type": "Software",
+      "description": "A fullstack web app to track daily transactions an view transaction history when needed. possibility to filter the history, analytics Dashboard and possibility to filter the dashboard within specific date periods",
+      "img": "expT.jpg",
+      "url": "https://adrienexpensetracker.vercel.app/"
     },
     {
       "id": 3,
+      "name": "E-Fastfood order app",
+      "technos": "React.JS tailwind",
+      "type": "Software",
+      "description": "Frontend project. A beautiful landing page for an e-commerce restauration business",
+      "img": "project2.jpg",
+      "url": "project2.jpg"
+    },
+    {
+      "id": 4,
       "name": "Instant messaging web app",
       "technos": "PHP JS SQL ",
-      "description": "frrr",
+      "type": "Software",
+      "description": "A fullstant project. An instant messaging web chat app, to communicate with users without need to access internet or having specific interlocuter id",
       "img": "project3.jpg",
       "url": "expT.jpg"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Task management app",
       "technos": " Next.js Tailwind Express.js MongoDB ",
-      "description": "frrr",
+      "type": "Software",
+      "description": "A fontend project. A web app to view planned task just as a todolist but with indiacting date and time and been notify when time comes for the task to be done",
       "img": "project1.jpg",
       "url": "expT.jpg"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Portfolio",
       "technos": " Next.js tailwind",
-      "description": "frrr",
+      "type": "Software",
+      "description": "A Frontend project. A website built to illustrate my skills, projects and educational path for a good description of my proffesional abilities",
       "img": "project4.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Bike sales dashboard",
+      "type": "big data",
+      "technos": " Next.js tailwind",
+      "description": "Data visualization project to highlight Key Performance indicator in a Bike sales business . Data was first cleaned",
+      "img": "projectdata1.png",
+      "url": "projectdata1.png"
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "frontend developer",
+      "company": "novus technologies",
+      "location": "California",
+      "duration": "oct 2024 - Nov 2024",
+      "description": "my mission was to develop the front end of a hospital management application and implement the backend ",
+      "img": "exp1.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 2,
+      "role": " frontend intern",
+      "company": "CSS engineering",
+      "location": "California",
+      "duration": "dec 2023- jan 2024",
+      "description": "my mision was to learn the basics of php, sql, react.js jsand do weekly projects",
+      "img": "exp2.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 3,
+      "role": " frontend intern",
+      "company": "CSS engineering",
+      "location": "California",
+      "duration": "jul 2024 - aug 2024",
+      "description": "my mision was to learn the basics of HTml, CSS, js, tailwind and do weekly projects",
+      "img": "exp2.jpg",
       "url": "expT.jpg"
     }
   ]

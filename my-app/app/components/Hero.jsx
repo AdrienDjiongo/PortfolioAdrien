@@ -6,9 +6,8 @@ const Hero = () => {
       <div>
         <h1 className={` lg:text-5xl  text-2xl sm:text-4xl`}>
           Adrien is a{" "}
-          <span className="text-[#C778DD] ">Fullstack developer</span>, and a{" "}
-          <span className="text-[#C778DD] ">Mobile developer</span>. very soon
-          also a <span className="text-[#C778DD] ">Data analyst</span>{" "}
+          <span className="text-[#C778DD] ">Fullstack developer</span>, and also
+          a <span className="text-[#C778DD] ">Data analyst</span>{" "}
         </h1>
         <p className="text-[#ABB2BF] text-lg max-w-[75%]">
           able to build responsive and attractive websites, web applications and

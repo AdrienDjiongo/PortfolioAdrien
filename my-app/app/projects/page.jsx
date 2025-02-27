@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import { useState, useEffect } from "react";
 
 const page = () => {
-  const [projects, setProjects] = useState([]);
+  const [projects, setProjects] = useState(null);
 
   useEffect(() => {
     // Fetch the JSON file from the public folder
@@ -23,7 +23,7 @@ const page = () => {
   }, []);
 
   return (
-    <div className="max-w-[1100px] text-white mx-auto">
+    <div className="max-w-[1100px] text-white mx-auto my-4">
       <Header />
 
       <p className="text-3xl">
@@ -36,31 +36,36 @@ const page = () => {
           <p className="my-auto">
             {" "}
             <span className="text-[#C778DD] my-auto ">#</span>
-            Complete apps{" "}
+            Big data projects{" "}
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 gap-y-6 mx-4 mb-4 ">
-          {projects.map((p) => (
-            <div
-              key={p.id}
-              className="flex flex-col border-[1px] border-[#ABB2BF] col-span-1  "
-            >
-              <img src={`/${p.img}`} className="w-full " alt="" />
-              <p className="p-3 text-[#ABB2BF] mb-3 border-b-[1px] border-[#ABB2BF] ">
-                {" "}
-                {p.technos}
-              </p>
-              <h1 className="px-5 text-2xl text-white "> {p.name}</h1>
-              <p className="py-1 px-5 text-sm text-[#ABB2BF] ">
-                {" "}
-                minecraft server hosting
-              </p>
-              <p className="text-white px-3 py-1 mx-6 my-4 border-[1px] border-[#C778DD] w-fit ">
-                View {"<~>"}{" "}
-              </p>
-            </div>
-          ))}
-        </div>
+        {!projects ? (
+          <div className="text-6xl text-white "> LOADING PROJECTS.... </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 gap-y-6 mx-4 mb-4 ">
+            {projects
+              .filter((projects) => projects.type == "big data")
+              .map((p) => (
+                <div
+                  key={p.id}
+                  className="flex flex-col border-[1px] border-[#ABB2BF] col-span-1  "
+                >
+                  <img src={`/${p.img}`} className="w-full " alt="" />
+                  <p className="p-3 text-[#ABB2BF] mb-3 border-b-[1px] border-[#ABB2BF] ">
+                    {" "}
+                    {p.technos}
+                  </p>
+                  <h1 className="px-5 text-2xl text-white "> {p.name}</h1>
+                  <p className="py-1 px-5 text-sm text-[#ABB2BF] ">
+                    {p.description}
+                  </p>
+                  <p className="text-white px-3 py-1 mx-6 my-4 border-[1px] border-[#C778DD] w-fit ">
+                    View {"<~>"}{" "}
+                  </p>
+                </div>
+              ))}
+          </div>
+        )}
 
         {/*  <div className="flex text-white text-3xl my-14 justify-between ">
           <p className="my-auto">
@@ -107,6 +112,42 @@ const page = () => {
             </p>
           </div>
         </div>*/}
+      </div>
+      <div>
+        <div className="flex text-white text-3xl my-10 justify-between ">
+          <p className="my-auto">
+            {" "}
+            <span className="text-[#C778DD] my-auto ">#</span>
+            Software dev projects
+          </p>
+        </div>
+        {!projects ? (
+          <div className="text-6xl text-white "> LOADING PROJECTS.... </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 gap-y-6 mx-4 mb-4 ">
+            {projects
+              .filter((projects) => projects.type == "Software")
+              .map((p) => (
+                <div
+                  key={p.id}
+                  className="flex flex-col border-[1px] border-[#ABB2BF] col-span-1  "
+                >
+                  <img src={`/${p.img}`} className="w-full " alt="" />
+                  <p className="p-3 text-[#ABB2BF] mb-3 border-b-[1px] border-[#ABB2BF] ">
+                    {" "}
+                    {p.technos}
+                  </p>
+                  <h1 className="px-5 text-2xl text-white "> {p.name}</h1>
+                  <p className="py-1 px-5 text-sm text-[#ABB2BF] ">
+                    {p.description}
+                  </p>
+                  <p className="text-white px-3 py-1 mx-6 my-4 border-[1px] border-[#C778DD] w-fit ">
+                    View {"<~>"}{" "}
+                  </p>
+                </div>
+              ))}
+          </div>
+        )}
       </div>
     </div>
   );

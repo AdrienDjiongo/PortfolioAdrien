@@ -50,9 +50,11 @@ const Skills = () => {
         </div>
         <div className=" bg-[#5f6775] sm:w-fit px-4 rounded-lg col-span-7 sm:col-span-4 border-[1px] border-[#ABB2BF]  ">
           <p className="text-white p-2 border-b-[1px] border-[#ABB2BF]  ">
-            Database
+            Database & Bigdata
           </p>
           <p className="text-[#ABB2BF] m-4">MySQL, PostgreSQL, MongoDB</p>
+          <p className="text-[#ABB2BF] m-4">SPSS, microsoft excel</p>
+          <p className="text-[#ABB2BF] m-4">Microsoft access</p>
         </div>
       </div>
     </div>
