@@ -45,7 +45,7 @@ const Experience = () => {
               >
                 <div
                   className={`w-1/2 -mx-2 border-[1px] border-[#ABB2BF]  ${
-                    experience.id % 2 === 0 ? "pr-8" : "pl-8"
+                    experience.id % 2 === 0 ? " pr-2 sm:pr-8" : " pl-2 sm:pl-8"
                   }`}
                 >
                   <div className="  p-4 rounded shadow-lg">
