@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Skills = () => {
   return (
     <div>
@@ -8,10 +10,12 @@ const Skills = () => {
             <span className="text-[#C778DD]  my-auto ">#</span>
             Education and skills{" "}
           </p>
-          <img
+          <Image
             src="/Stroke.png"
             className="h-[1px] hidden sm:block mt-4 w-[27em] pr-10 "
             alt=""
+            width={900}
+            height={400}
           />
         </div>
       </div>
