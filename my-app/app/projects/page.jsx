@@ -2,6 +2,7 @@
 import Header from "../components/Header";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const page = () => {
   const [projects, setProjects] = useState(null);
@@ -51,7 +52,13 @@ const page = () => {
                   key={p.id}
                   className="flex flex-col border-[1px] border-[#ABB2BF] col-span-1  "
                 >
-                  <img src={`/${p.img}`} className="w-full " alt="" />
+                  <Image
+                    width={900}
+                    height={400}
+                    src={`/${p.img}`}
+                    className="w-full "
+                    alt=""
+                  />
                   <p className="p-3 text-[#ABB2BF] mb-3 border-b-[1px] border-[#ABB2BF] ">
                     {" "}
                     {p.technos}
