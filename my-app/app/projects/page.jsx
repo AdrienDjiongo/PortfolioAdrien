@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const page = () => {
+const Page = () => {
   const [projects, setProjects] = useState(null);
 
   useEffect(() => {
@@ -129,4 +129,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
