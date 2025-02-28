@@ -21,7 +21,7 @@ const About = () => {
       </div>
 
       <div className="flex flex-col gap-5 mx-4 sm:mr-8 text-sm sm:text-xl text-[#ABB2BF] ">
-        <p>Hello, i&aposm Adrien</p>
+        <p>Hello, i am Adrien</p>
         <p>
           {" "}
           I am a passionate software developer and data analyst based in Douala,
@@ -36,7 +36,7 @@ const About = () => {
           collaborative projects, and self-driven learning, which you can
           explore in my portfolio. Currently diving deeper into data science and
           mobile development, I aim to create impactful tools that address
-          real-world challenges. Beyond coding et data analysis, I&aposm an
+          real-world challenges. Beyond coding et data analysis, I am an
           educator and a continuous learner, constantly striving to bridge the
           gap between technology and fields like finance and analytics.{" "}
         </p>
