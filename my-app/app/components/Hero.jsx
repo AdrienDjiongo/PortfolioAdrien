@@ -10,8 +10,9 @@ const Hero = () => {
           a <span className="text-[#C778DD] ">Data analyst</span>{" "}
         </h1>
         <p className="text-[#ABB2BF] text-lg max-w-[75%]">
-          able to build responsive and attractive websites, web applications and
-          mobile applications
+          able to build responsive and attractive websites, web applications,
+          transform raw data into impactful informations by the aid of
+          dashboards
         </p>
       </div>
 

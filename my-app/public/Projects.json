@@ -2,15 +2,6 @@
   "project": [
     {
       "id": 1,
-      "name": "States sales dashboard",
-      "technos": "microsoft Excel",
-      "type": "big data",
-      "description": "Data analysis project. Visualization project to highlight Key Performance indicator in a state sales business.",
-      "img": "projectdata2.png",
-      "url": "projectdata2.png"
-    },
-    {
-      "id": 2,
       "name": "Expense tracker",
       "technos": "Next.js Express Mongodb",
       "type": "Software",
@@ -19,13 +10,23 @@
       "url": "https://adrienexpensetracker.vercel.app/"
     },
     {
+      "id": 2,
+      "name": "sales dashboard",
+      "technos": "Power bi, Excel",
+      "type": "big data",
+      "description": "Data analysis project. Visualization project to highlight Key Performance indicator in a state sales business.",
+      "img": "projectdata3.png",
+      "url": "https://github.com/AdrienDjiongo/Sales_dashboard"
+    },
+
+    {
       "id": 3,
-      "name": "E-Fastfood order app",
+      "name": "E-Fastfood landing page",
       "technos": "React.JS tailwind",
       "type": "Software",
       "description": "Frontend project. A beautiful landing page for an e-commerce restauration business",
       "img": "project2.jpg",
-      "url": "project2.jpg"
+      "url": "https://gwens-fooding.vercel.app/"
     },
     {
       "id": 4,
@@ -34,7 +35,7 @@
       "type": "Software",
       "description": "A fullstant project. An instant messaging web chat app, to communicate with users without need to access internet or having specific interlocuter id",
       "img": "project3.jpg",
-      "url": "expT.jpg"
+      "url": "https://github.com/AdrienDjiongo/chatapp"
     },
     {
       "id": 5,
@@ -43,7 +44,7 @@
       "type": "Software",
       "description": "A fontend project. A web app to view planned task just as a todolist but with indiacting date and time and been notify when time comes for the task to be done",
       "img": "project1.jpg",
-      "url": "expT.jpg"
+      "url": "https://zingy-wisp-2e6781.netlify.app/"
     },
     {
       "id": 6,
@@ -52,7 +53,7 @@
       "type": "Software",
       "description": "A Frontend project. A website built to illustrate my skills, projects and educational path for a good description of my proffesional abilities",
       "img": "project4.jpg",
-      "url": "expT.jpg"
+      "url": "#"
     },
     {
       "id": 7,
@@ -62,6 +63,15 @@
       "description": "Data visualization project to highlight Key Performance indicator in a Bike sales business . Data was first cleaned",
       "img": "projectdata1.png",
       "url": "projectdata1.png"
+    },
+    {
+      "id": 8,
+      "name": "States sales dashboard",
+      "type": "big data",
+      "technos": " microsoft Excel",
+      "description": "Data visualization project to highlight Key Performance indicator on a sample excel database. Data was first cleaned",
+      "img": "projectdata2.png",
+      "url": "projectdata2.png"
     }
   ],
   "experience": [
@@ -77,11 +87,11 @@
     },
     {
       "id": 2,
-      "role": " frontend intern",
-      "company": "CSS engineering",
+      "role": " Data analyst",
+      "company": "The brains prepa",
       "location": "California",
-      "duration": "dec 2023- jan 2024",
-      "description": "my mision was to learn the basics of php, sql, react.js jsand do weekly projects",
+      "duration": "jul 2024 - aug 2024",
+      "description": "my mision was to set the weekly classes programs and do weekly reports added to Excel dashboards",
       "img": "exp2.jpg",
       "url": "expT.jpg"
     },
@@ -90,8 +100,8 @@
       "role": " frontend intern",
       "company": "CSS engineering",
       "location": "California",
-      "duration": "jul 2024 - aug 2024",
-      "description": "my mision was to learn the basics of HTml, CSS, js, tailwind and do weekly projects",
+      "duration": "dec 2023- jan 2024",
+      "description": "my mision was to learn the basics of php, sql, react.js jsand do weekly projects",
       "img": "exp2.jpg",
       "url": "expT.jpg"
     }

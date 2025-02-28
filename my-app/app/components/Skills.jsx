@@ -53,8 +53,8 @@ const Skills = () => {
             Database & Bigdata
           </p>
           <p className="text-[#ABB2BF] m-4">MySQL, PostgreSQL, MongoDB</p>
-          <p className="text-[#ABB2BF] m-4">SPSS, microsoft excel</p>
-          <p className="text-[#ABB2BF] m-4">Microsoft access</p>
+          <p className="text-[#ABB2BF] m-4">SPSS, Power BI</p>
+          <p className="text-[#ABB2BF] m-4">Microsoft access, Excel</p>
         </div>
       </div>
     </div>

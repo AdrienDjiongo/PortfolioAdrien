@@ -1,4 +1,5 @@
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
 
 const Contact = () => {
   return (
@@ -10,10 +11,12 @@ const Contact = () => {
             <span className="text-[#C778DD]   my-auto ">#</span>
             Contact{" "}
           </p>
-          <img
+          <Image
             src="/Stroke.png"
             className="h-[1px] hidden sm:block mt-4 w-[27em] pr-10 "
             alt=""
+            width={900}
+            height={400}
           />
         </div>
       </div>

@@ -43,27 +43,6 @@ const Header = () => {
               </p>
             </Link>
           </li>
-          <li>
-            <Link href="/experience">
-              <p className="block py-2 sm:py-0">
-                <span className="text-[#C778DD]">#</span>Experience
-              </p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <p className="block py-2 sm:py-0">
-                <span className="text-[#C778DD]">#</span>About-me
-              </p>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contacts">
-              <p className="block py-2 sm:py-0">
-                <span className="text-[#C778DD]">#</span>Contacts
-              </p>
-            </Link>
-          </li>
         </ul>
       </nav>
     </header>

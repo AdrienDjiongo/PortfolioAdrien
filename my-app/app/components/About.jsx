@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const About = () => {
   return (
     <div>
@@ -8,10 +10,12 @@ const About = () => {
             <span className="text-[#C778DD]   my-auto ">#</span>
             About-me{" "}
           </p>
-          <img
+          <Image
             src="/Stroke.png"
             className="h-[1px] mt-4 hidden sm:block w-[27em] pr-10 "
             alt=""
+            width={900}
+            height={400}
           />
         </div>
       </div>
@@ -20,26 +24,21 @@ const About = () => {
         <p>Hello, i'm Adrien</p>
         <p>
           {" "}
-          I am a dedicated software developer based in Douala, Cameroon, with a
-          passion for creating innovative and efficient web solutions. With
-          expertise in frontend technologies like React.js, Tailwind CSS, and
-          JavaScript, I build user-focused applications that merge functionality
-          and aesthetics. My background includes a BTS in software engineering
-          and ongoing studies in statistics and big data, allowing me to combine
-          technical development with data-driven insights.
+          I am a passionate software developer and data analyst based in Douala,
+          Cameroon. With expertise in both frontend and backend technologies. I
+          build scalable, efficient web solutions. Additionally, my proficiency
+          in some data analysis tools allows me to transform raw data into
+          meaningful insights.
         </p>
         <p>
           {" "}
           Over the years, I have honed my skills through internships,
           collaborative projects, and self-driven learning, which you can
-          explore in my portfolio. Currently diving deeper into backend and
+          explore in my portfolio. Currently diving deeper into data science and
           mobile development, I aim to create impactful tools that address
-          real-world challenges. Beyond coding, I'm an educator and a continuous
-          learner, constantly striving to bridge the gap between technology and
-          fields like finance and analytics.{" "}
-        </p>
-        <p className="text-white px-3 py-1 mx-6 my-4 border-[1px] border-[#C778DD] w-fit ">
-          Read more {"~~>"}{" "}
+          real-world challenges. Beyond coding et data analysis, I'm an educator
+          and a continuous learner, constantly striving to bridge the gap
+          between technology and fields like finance and analytics.{" "}
         </p>
       </div>
     </div>

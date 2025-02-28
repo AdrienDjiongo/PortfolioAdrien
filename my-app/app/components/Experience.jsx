@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 
 const Experience = () => {
   const [skills, setSkills] = useState(null);
@@ -14,15 +15,17 @@ const Experience = () => {
 
   return (
     <div className="container text-white mx-auto p-4">
-      <div className="flex  text-2xl my-10 justify-between   gap-2">
+      <div className="flex  text-2xl my-10     gap-2">
         <p className="my-auto">
           {" "}
           <span className="text-[#C778DD]  my-auto ">#</span>
           Experience(5 months){" "}
         </p>
-        <img
+        <Image
           src="/Stroke.png"
           className="h-[1px] hidden sm:block mt-4 w-[27em] pr-10 "
+          width={900}
+          height={400}
           alt=""
         />
       </div>{" "}

@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const Projects = () => {
   const [projects, setProjects] = useState();
@@ -33,10 +34,12 @@ const Projects = () => {
             <span className="text-[#C778DD] my-auto ">#</span>
             Projects{" "}
           </p>
-          <img
+          <Image
             src="/Stroke.png"
             className="h-[1px] hidden sm:block mt-4 w-[30em] pr-10 "
             alt=""
+            width={900}
+            height={400}
           />
         </div>
 
@@ -55,7 +58,13 @@ const Projects = () => {
               key={p.id}
               className="flex flex-col border-[1px] border-[#ABB2BF] col-span-1  "
             >
-              <img src={`/${p.img}`} className="w-full " alt="" />
+              <Image
+                width={900}
+                height={400}
+                src={`/${p.img}`}
+                className="w-full "
+                alt=""
+              />
               <p className="p-3 text-[#ABB2BF] mb-3 border-b-[1px] border-[#ABB2BF] ">
                 {" "}
                 {p.technos}
