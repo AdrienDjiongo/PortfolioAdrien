@@ -32,7 +32,7 @@ const Experience = () => {
       {!skills ? (
         <div className="text-6xl text-white "> LOADING SKILLS.... </div>
       ) : (
-        <div className="relative">
+        <div className="relative -mx-2 ">
           <div className="border-l-2 border-gray-200 absolute h-full left-1/2 transform -translate-x-1/2"></div>
 
           <ul className="space-y-8">
@@ -48,14 +48,16 @@ const Experience = () => {
                     experience.id % 2 === 0 ? " pr-2 sm:pr-8" : " pl-2 sm:pl-8"
                   }`}
                 >
-                  <div className="  p-4 rounded shadow-lg">
+                  <div className=" p-1  sm:p-4 rounded shadow-lg">
                     <h3 className="sm:text-xl font-semibold">
                       {experience.role} at {experience.company}
                     </h3>
                     <p className=" text-sm sm:text-base text-gray-400">
                       {experience.duration}
                     </p>
-                    <p className="mt-2">{experience.description}</p>
+                    <p className=" text-sm sm:text-base mt-2">
+                      {experience.description}
+                    </p>
                   </div>
                 </div>
               </li>
