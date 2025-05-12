@@ -11,12 +11,12 @@
     },
     {
       "id": 2,
-      "name": "sales dashboard",
+      "name": "Credit dashboard",
       "technos": "Power bi, Excel",
       "type": "big data",
-      "description": "Data analysis project. Visualization project to highlight Key Performance indicator in a state sales business.",
-      "img": "projectdata3.png",
-      "url": "https://github.com/AdrienDjiongo/Sales_dashboard"
+      "description": "Data analysis project. Visualization project to highlight Key Performance indicator over thousands of credits granted to customers. Data was first cleaned and wrangled using power bi and excel before being visualized. ",
+      "img": "ft1.jpg",
+      "url": "#"
     },
 
     {
@@ -57,26 +57,46 @@
     },
     {
       "id": 7,
-      "name": "Bike sales dashboard",
+      "name": " employee performance dashboard",
       "type": "big data",
-      "technos": " Next.js tailwind",
-      "description": "Data visualization project to highlight Key Performance indicator in a Bike sales business . Data was first cleaned",
-      "img": "projectdata1.png",
-      "url": "projectdata1.png"
+      "technos": "Power bi, Excel",
+      "description": "Data visualization project to view the performance of employees over a period of time; year in this case in their different agencies of the company. ",
+      "img": "ft2.jpg",
+      "url": "#"
     },
     {
       "id": 8,
-      "name": "States sales dashboard",
+      "name": "Exam resutls stats",
       "type": "big data",
-      "technos": " microsoft Excel",
-      "description": "Data visualization project to highlight Key Performance indicator on a sample excel database. Data was first cleaned",
-      "img": "projectdata2.png",
-      "url": "projectdata2.png"
+      "technos": " microsoft Excel, power bi",
+      "description": "Data visualization project to highlight the performance of students in an exam. The project was done using power bi and excel. Data was first cleaned and wrangled using power bi and excel before being visualized. ",
+      "img": "tbp1.jpg",
+      "url": "#"
+    },
+    {
+      "id": 9,
+      "name": "ales analytics dashboard",
+      "type": "big data",
+      "technos": "power bi",
+      "description": "Data visualization project to highlight the key performance indicators of a company over a period of time. The project was done using power bi.",
+      "img": "tbp1.jpg",
+      "url": "#"
     }
   ],
   "experience": [
     {
       "id": 1,
+      "role": "data analyst intern",
+      "company": "first trust savings and loans",
+      "location": "Akwa, paris dancing",
+      "duration": "Mar 2025 - May 2025",
+      "description": "my mission was to clean, wrangle, transform and visualize data from the company database. I used power bi to visualize the data and highlight key performance indicators. I also used Excel to clean the data and do some analysis. ",
+      "img": "exp1.jpg",
+      "url": "expT.jpg"
+    },
+
+    {
+      "id": 2,
       "role": "frontend developer",
       "company": "novus technologies",
       "location": "California",
@@ -86,7 +106,7 @@
       "url": "expT.jpg"
     },
     {
-      "id": 2,
+      "id": 3,
       "role": " Data analyst",
       "company": "The brains prepa",
       "location": "California",
@@ -96,7 +116,7 @@
       "url": "expT.jpg"
     },
     {
-      "id": 3,
+      "id": 4,
       "role": " frontend intern",
       "company": "CSS engineering",
       "location": "California",

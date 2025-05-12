@@ -49,7 +49,7 @@ const Skills = () => {
           <div className="m-4 flex flex-col gap-4">
             {" "}
             <p className="text-[#ABB2BF]">React.js, Express.js, Node.js</p>
-            <p className="text-[#ABB2BF]">Next.js, Tailwind.css </p>
+            <p className="text-[#ABB2BF]">Next.js, Nest.js, Tailwind.css </p>
           </div>
         </div>
         <div className=" bg-[#5f6775] sm:w-fit px-4 rounded-lg col-span-7 sm:col-span-4 border-[1px] border-[#ABB2BF]  ">
@@ -57,8 +57,8 @@ const Skills = () => {
             Database & Bigdata
           </p>
           <p className="text-[#ABB2BF] m-4">MySQL, PostgreSQL, MongoDB</p>
-          <p className="text-[#ABB2BF] m-4">SPSS, Power BI</p>
-          <p className="text-[#ABB2BF] m-4">Microsoft access, Excel</p>
+          <p className="text-[#ABB2BF] m-4">SPSS, Power BI, tableau, cognos</p>
+          <p className="text-[#ABB2BF] m-4">Microsoft access, Excel, sheets</p>
         </div>
       </div>
     </div>

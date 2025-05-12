@@ -19,7 +19,7 @@ const Experience = () => {
         <p className="my-auto">
           {" "}
           <span className="text-[#C778DD]  my-auto ">#</span>
-          Experience(6 months){" "}
+          Experience(8 months){" "}
         </p>
         <Image
           src="/Stroke.png"
@@ -49,8 +49,12 @@ const Experience = () => {
                   }`}
                 >
                   <div className=" p-1  sm:p-4 rounded shadow-lg">
-                    <h3 className="sm:text-xl font-semibold">
-                      {experience.role} at {experience.company}
+                    <h3 className="sm:text-xl ">
+                      {experience.role} at{" "}
+                      <span className="text-[#C778DD]">
+                        {" "}
+                        {experience.company}{" "}
+                      </span>
                     </h3>
                     <p className=" text-sm sm:text-base text-gray-400">
                       {experience.duration}
