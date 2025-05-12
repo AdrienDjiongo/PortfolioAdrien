@@ -75,11 +75,11 @@
     },
     {
       "id": 9,
-      "name": "ales analytics dashboard",
+      "name": "sales analytics dashboard",
       "type": "big data",
       "technos": "power bi",
       "description": "Data visualization project to highlight the key performance indicators of a company over a period of time. The project was done using power bi.",
-      "img": "tbp1.jpg",
+      "img": "csr.jpg",
       "url": "#"
     }
   ],

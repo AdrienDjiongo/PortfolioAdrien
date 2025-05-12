@@ -29,7 +29,7 @@ const Page = () => {
       <Header />
 
       <p className="text-3xl">
-        <span className="text-[#C778DD] ">/</span>Projects
+        <span className="text-[#C778DD] ">/</span>Projects(9)
       </p>
       <p className=" text-sm "> list of my projects</p>
 
