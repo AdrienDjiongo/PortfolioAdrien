@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "CV - Adrien Djiongo",
+  title: " Adrien's portfolio'",
   description: "Portfolio of Adrien Djiongo",
 };
 
