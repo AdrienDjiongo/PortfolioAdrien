@@ -86,42 +86,43 @@
   "experience": [
     {
       "id": 1,
-      "role": "data analyst intern",
+      "role": " Data and information system manager",
+      "company": "The brains prepa",
+      "location": "Douala",
+      "duration": "jun 2022 - present(seasonal)",
+      "description": " Architectured and admisnistered a database for the collection and storage of data inorder to analyse(descriptive and diagnostics). Cleaned, wrangled and transformed data with excel and visualized using power BI ",
+      "img": "exp2.jpg",
+      "url": "expT.jpg"
+    },
+    {
+      "id": 2,
+      "role": "Data analyst intern",
       "company": "first trust savings and loans",
       "location": "Akwa, paris dancing",
       "duration": "Mar 2025 - May 2025",
-      "description": "my mission was to clean, wrangle, transform and visualize data from the company database. I used power bi to visualize the data and highlight key performance indicators. I also used Excel to clean the data and do some analysis. ",
+      "description": "Cleaned, wrangled, transformed and visualized data from the company database with the help of tools like power bi for the visualization of the data and the highlight key performance indicators and also  Excel for the cleaning some analysis. ",
       "img": "exp1.jpg",
       "url": "expT.jpg"
     },
 
     {
-      "id": 2,
-      "role": "frontend developer",
+      "id": 3,
+      "role": "frontend developer(freelance)",
       "company": "novus technologies",
-      "location": "California",
+      "location": "remote",
       "duration": "Oct 2024 - Dec 2024",
-      "description": "my mission was to develop the front end of a hospital management application and implement the backend ",
+      "description": "Developped the frontend of a hospital management application and implemented the backend to it ",
       "img": "exp1.jpg",
       "url": "expT.jpg"
     },
-    {
-      "id": 3,
-      "role": " Data analyst",
-      "company": "The brains prepa",
-      "location": "California",
-      "duration": "jun 2024 - sep 2024",
-      "description": "my mision was to set the weekly classes programs and do weekly reports added to Excel dashboards",
-      "img": "exp2.jpg",
-      "url": "expT.jpg"
-    },
+
     {
       "id": 4,
-      "role": " frontend intern",
+      "role": " Developper",
       "company": "CSS engineering",
-      "location": "California",
-      "duration": "Dec 2023- jan 2024",
-      "description": "my mision was to learn the basics of php, sql, react.js jsand do weekly projects",
+      "location": "Douala, makepe",
+      "duration": "aug 2022- aug 2024",
+      "description": " Developed and maintained responsive web applications using HTML, CSS, JavaScript, and frameworks such as React. Implemented RESTful APIs to facilitate communication between front-end and back-end services. Collaborated with cross-functional teams to design, develop, and deploy software solutions tailored to client needs. Participated in Agile development processes, including sprint planning, daily stand-ups, and retrospectives. ",
       "img": "exp2.jpg",
       "url": "expT.jpg"
     }

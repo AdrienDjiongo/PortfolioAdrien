@@ -19,7 +19,7 @@ const Experience = () => {
         <p className="my-auto">
           {" "}
           <span className="text-[#C778DD]  my-auto ">#</span>
-          Experience(8 months){" "}
+          Experience(2+ years){" "}
         </p>
         <Image
           src="/Stroke.png"
